@@ -1,63 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script defer src="js/all.js"></script>
-  <title>Some Company</title>
-</head>
-<body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="container">
-      <div class="navbar-brand">
-        <a href="index.html" class="navbar-item">Company Name</a>
-        <button class="button navbar-burger has-background-primary is-shadowless" data-target="navMenu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-      <div class="navbar-menu" id="navMenu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="index.html">Home</a>
-          <a class="navbar-item" href="about.html">About</a>
-          <a class="navbar-item" href="team.html">Team</a>
-          <a class="navbar-item" href="contact.html">Contact</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/all.js"></script>
+    <title>Some Company</title>
+  </head>
+  <body>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html" class="navbar-item">Company Name</a>
+          <button class="button navbar-burger has-background-primary is-shadowless" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
-        <div class="navbar-end">
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="#0">Language</a>
-              <div class="navbar-dropdown is-boxed">
-                <a href="www.language.com" class="navbar-item" href="#0">Language</a>
-                <a href="www.language.com" class="navbar-item" href="#0">Language</a>
-                <a href="www.language.com" class="navbar-item" href="#0">Language</a>
-              </div>
-            </a>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="about.html">About</a>
+            <a class="navbar-item" href="team.html">Team</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="#0">Language</a>
+                <div class="navbar-dropdown is-boxed">
+                  <a href="www.language.com" class="navbar-item" href="#0">Language</a>
+                  <a href="www.language.com" class="navbar-item" href="#0">Language</a>
+                  <a href="www.language.com" class="navbar-item" href="#0">Language</a>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+    </nav>
+  <section class="section pb-5">
+    <div class="hero-body pb-5"> <!-- provides padding for the hero body</div> -->
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <figure class="image is-2by1"> <!-- provides a ratio of 2:1 for the image, even before it's loaded -->
+              <img src="assets/800x400.png">
+            </figure>
+          </div>
+          <div class="column">
+          <h1 class="title is-1">Company Name</h1>
+          <p class="subtitle">Y si solo falta que diga que la tierra es plana y ahí tiene para diario.</p>
+          <button class="button is-primary">Read More</button>
+          <button class="button is-outlined">Contact Us</button>
           </div>
         </div>
       </div>
-  </nav>
-<section class="section is-light is-bold">
-  <div class="hero-body"> <!-- provides padding for the hero body</div> -->
+    </div>
+  </section>
+  <section class="section">
     <div class="container">
+      <div class="notification is-info">
+        <h2 class="title">We're Hiring!</h2>
+        <p>Y si todo falla, sacar alguna mamada en contra de: EEUU La Colonia/España Algún periodista El avión Me di cuenta que este wey tiene una lista infinita de excusas pa hacerse pendejo. Solo falta que diga que la tierra es plana y ahí tiene <a href="#">para diario.</a></p>
+      </div>
       <div class="columns">
         <div class="column">
-          <figure class="image is-2by1"> <!-- provides a ratio of 2:1 for the image even before it's loaded -->
-            <img src="assets/800x400.png">
-          </figure>
+          <div class="columns is-desktop">
+            <div class="column">
+              <figure class="image is-1by1">
+                <img src="assets/800x800.png">
+              </figure>
+            </div>
+            <div class="column content">
+              <h1 class="title">What We Do</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit deleniti voluptate ratione sapiente? Nobis similique commodi, maiores aut nemo, repellendus consequuntur magnam suscipit dicta ipsa dignissimos vel ullam consectetur animi amet vero? Tenetur quo laboriosam minima maiores labore hic exercitationem ipsam earum ratione sequi, mollitia </p>
+              <button class="button is-primary">Read More</button>
+            </div>
+          </div>
         </div>
         <div class="column">
-         <h1 class="title is-1">Company Name</h1>
-         <p class="subtitle">Y si solo falta que diga que la tierra es plana y ahí tiene para diario.</p>
-         <button class="button is-primary">Read More</button>
-         <button class="button is-outlined">Contact Us</button>
+          <div class="columns is-desktop">
+            <div class="column">
+              <figure class="image is-1by1">
+                <img src="assets/800x800.png">
+              </figure>
+            </div>
+            <div class="column content">
+              <h1 class="title">Who We Are</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit deleniti voluptate ratione sapiente? Nobis similique commodi, maiores aut nemo, repellendus consequuntur magnam suscipit dicta ipsa dignissimos vel ullam consectetur animi amet vero? Tenetur quo laboriosam minima maiores labore hic exercitationem ipsam earum ratione sequi, mollitia. Odio, dolore?</p>
+              <button class="button is-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+          <div class="card">
+            <header class="card-header">
+              <time class="card-header-title is-centered" datetime="2020-01-31">Published: 31-01-2020</time>
+            </header>
+            <div class="card-content content">
+              <h2 class="card-title">News Item</h2>              
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt distinctio voluptas rem molestiae dolores porro accusamus autem animi mollitia.</p>
+            </div>
+            <footer class="card-footer">
+              <a href="#0" class="card-footer-item">Read More</a>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+          <div class="card">
+            <header class="card-header">
+              <time class="card-header-title is-centered" datetime="2020-01-31">Published: 31-01-2020</time>
+            </header>
+            <div class="card-content content">
+              <h2 class="card-title">News Item</h2>              
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt distinctio voluptas rem molestiae dolores porro accusamus autem animi mollitia.</p>
+            </div>
+            <footer class="card-footer">
+              <a href="#0" class="card-footer-item">Read More</a>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+          <div class="card">
+            <header class="card-header">
+              <time class="card-header-title is-centered" datetime="2020-01-31">Published: 31-01-2020</time>
+            </header>
+            <div class="card-content content">
+              <h2 class="card-title">News Item</h2>              
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt distinctio voluptas rem molestiae dolores porro accusamus autem animi mollitia.</p>
+            </div>
+            <footer class="card-footer">
+              <a href="#0" class="card-footer-item">Read More</a>
+            </footer>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<script type="text/javascript" src="js/scripts.js"></script>
-</body>
+  </section>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
 </html>
