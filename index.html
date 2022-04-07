@@ -6,14 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script defer src="js/all.js"></script>
-  <title>Document</title>
+  <title>Some Company</title>
 </head>
 <body>
-  <button class="button is-primary">
-    Button
-    <i class="fas fa-home"></i>
-  </button>
-  <i class="fab fa-facebook"></i>
-
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="index.html" class="navbar-item">Company Name</a>
+        <button class="button navbar-burger has-background-primary is-shadowless" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">Home</a>
+          <a class="navbar-item" href="about.html">About</a>
+          <a class="navbar-item" href="team.html">Team</a>
+          <a class="navbar-item" href="contact.html">Contact</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#0">Language</a>
+              <div class="navbar-dropdown is-boxed">
+                <a href="www.language.com" class="navbar-item" href="#0">Language</a>
+                <a href="www.language.com" class="navbar-item" href="#0">Language</a>
+                <a href="www.language.com" class="navbar-item" href="#0">Language</a>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </nav>
+<section class="section is-light is-bold">
+  <div class="hero-body"> <!-- provides padding for the hero body</div> -->
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <figure class="image is-2by1"> <!-- provides a ratio of 2:1 for the image even before it's loaded -->
+            <img src="assets/800x400.png">
+          </figure>
+        </div>
+        <div class="column">
+         <h1 class="title is-1">Company Name</h1>
+         <p class="subtitle">Y si solo falta que diga que la tierra es plana y ahí tiene para diario.</p>
+         <button class="button is-primary">Read More</button>
+         <button class="button is-outlined">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
